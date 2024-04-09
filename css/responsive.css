@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 768px) {
   .hero .top {
     margin: 0;
     flex-direction: column;
