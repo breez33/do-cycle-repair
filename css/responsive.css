@@ -1,0 +1,6 @@
+@media  (max-width: 1024px) {
+  .hero .block-text {
+    margin-right: 0;
+    text-align: center;
+  }  
+}
