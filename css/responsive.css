@@ -1,6 +1,17 @@
 @media  (max-width: 1024px) {
   .hero .block-text {
-    margin-right: 0;
     text-align: center;
-  }  
+  }
+
+  .hero .top {
+    justify-content: center;
+  }
+
+  .hero p {
+    padding: 0 var(--size-40);
+  }
+
+  .placeholder {
+    display: none;
+  }
 }
