@@ -1,7 +1,7 @@
 .header {
   background-image: url(/assets/hero-banner.jpg);
   background-repeat: no-repeat;
-  background-color: var(--accent-color-2);
+  background-color: var(--secondary-color);
   background-size: cover;
   background-position: 90% 85%;
   position: relative;
@@ -21,18 +21,43 @@
   z-index: -1;
 }
 
+.navigation {
+  background-color: var(--primary-color);
+}
+
 .navbar {
-  padding: 20px 0;;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-16) var(--size-30);
 }
 
 .nav-logo {
-  width: 120px;
+  font-size: var(--size-20);
+  font-weight: 800;
+  color: var(--font-color-light)
+}
+
+.nav-menu-container {
+  display: flex;
+  align-items: center;
+  gap: var(--size-20);
+}
+
+.nav-menu {
+  display: flex;
+  gap: var(--size-30);
+}
+
+.nav-option a {
+  font-size: var(--size-16);
+  font-weight: 600;
+  color: var(--font-color-light)
 }
 
 .hero {
   color: white;
   display: flex;
-  padding-bottom: var(--size-80);
+  padding: var(--size-100) 0;
   gap: var(--size-20);
 }
 
@@ -43,18 +68,19 @@
 .hero .top {
   display: flex;
   align-items: center;
+  margin-bottom: var(--size-20)
 }
 
 .hero .logo {
-  width: var(--size-120);
+  width: var(--size-150);
   margin-right: var(--size-25);
-  margin-top: var(--size-18);
+  flex-shrink: 0;
 }
 
 .hero h1 {
   font-size: var(--size-50);
   line-height: var(--size-60);
-  margin-bottom: var(--size-20);
+  margin: 0;
 }
 
 .hero p {
@@ -69,17 +95,11 @@
 }
 
 .about-services {
-  display: flex;
-  justify-content: center;
   margin-top: var(--size-50);
 }
 
-.section-header {
-  display: flex;
-  justify-content: center;
-}
-
 .section-header h2 {
+  text-align: center;
   font-size: var(--size-40);
   font-weight: 700;
 }

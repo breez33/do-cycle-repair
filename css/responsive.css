@@ -5,6 +5,7 @@
 
   .hero .top {
     justify-content: center;
+    text-align: left;
   }
 
   .hero p {
