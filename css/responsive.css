@@ -26,6 +26,20 @@
   .placeholder {
     display: none;
   }
+
+  .about-us {
+    margin-top: var(--size-100);
+  }
+
+  .about-us-container {
+    flex-direction: column;
+    gap: var(--size-40);
+  }
+
+  .about-us-right {
+    padding-left: 0;
+    text-align: center;;
+  }
 }
 
 @media (max-width: 768px) {
