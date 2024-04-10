@@ -27,6 +27,19 @@
     display: none;
   }
 
+  .preferred-brands {
+    flex-direction: column;
+    text-align: center;;
+  }
+
+  .preferred-brands .title {
+    margin: 0;
+  }
+
+  .section-divider {
+    width: 100%;
+  }
+
   .about-us {
     margin-top: var(--size-100);
   }

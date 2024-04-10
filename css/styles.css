@@ -94,6 +94,29 @@
   flex: .8 1 0;
 }
 
+.preferred-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size-40);
+  padding: var(--size-30) 0;
+}
+
+.preferred-brands .title {
+  font-size: var(--size-16);
+  margin-right: auto;
+}
+
+.preferred-brands .brand {
+  max-width: var(--size-150);
+}
+
+.section-divider {
+  border: none;
+  width: 90%;
+  border-top: 1px solid rgb(231, 231, 231);
+}
+
 .about-us {
   margin-top: var(--size-150);
 }
