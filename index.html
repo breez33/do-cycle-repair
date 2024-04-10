@@ -11,37 +11,35 @@
     <link rel="stylesheet" href="/css/default.css" />
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
   <body>
-    <section class="navigation">
-      <nav class="container nav navbar">
-        <div class="nav-logo">DO Cycle Repair</div>
-        <div class="nav-menu-container">
-          <ul class="nav-menu">
-            <li class="nav-option"><a href="#about-us">About</a></li>
-            <li class="nav-option"><a href="">Services</a></li>
-            <li class="nav-option"><a href="">Why us?</a></li>
-          </ul>
+    <header class="header">
+      <nav class="nav">
+        <div class="container navbar">
+          <div class="nav-logo">
+            <img src="/assets/do-cycle-repair-compact-white.png" alt="">
+          </div>
+          <div class="nav-menu-container">
+            <ul class="nav-menu">
+              <li class="nav-option"><a href="#about-us">About</a></li>
+              <li class="nav-option"><a href="">Services</a></li>
+              <li class="nav-option"><a href="">Why us?</a></li>
+            </ul>
+            <a href="" class="button button-primary cta-button"
+              >Schedule An Appointment</a
+            >
+          </div>
         </div>
       </nav>
-    </section>
-    <header class="header">
       <div class="container hero">
         <div class="block-text">
-          <div class="top">
-            <div class="logo">
-              <img
-                src="/assets/do-cycle-repair-white.png"
-                alt="DO Cycle Repair Logo"
-              />
-            </div>
-            <h1>Unlock Your Bike's Full Potential</h1>
-          </div>
+          <h1>Unlock Your Bike's Full Potential</h1>
           <p>
             From tune-ups to overhauls, we breathe new life into every bike that
             crosses our shop
           </p>
-          <a href="" class="button button-primary cta-button"
+          <a href="" class="button button-primary"
             >Schedule An Appointment</a
           >
         </div>
@@ -52,20 +50,23 @@
       <div class="container preferred-brands">
         <div class="title">BRANDS WE TRUST</div>
         <div class="brand">
-          <img src="https://www.sandmbikes.com/wp-content/themes/sandmbikes_theme_v4/images/logo172x52.png" alt="">
+          <img
+            src="https://www.sandmbikes.com/wp-content/themes/sandmbikes_theme_v4/images/logo172x52.png"
+            alt=""
+          />
         </div>
         <div class="brand">
-          <img src="/assets/black-standard-logo.png" alt="">
+          <img src="/assets/black-standard-logo.png" alt="" />
         </div>
         <div class="brand">
-          <img src="/assets/black-eclat-logo.png" alt="">
+          <img src="/assets/black-eclat-logo.png" alt="" />
         </div>
         <div class="brand">
-          <img src="/assets/sunday.png" alt="">
+          <img src="/assets/sunday.png" alt="" />
         </div>
       </div>
     </section>
-    <hr class="section-divider">
+    <hr class="section-divider" />
     <section id="about-us" class="about-us">
       <div class="container about-us-container">
         <div class="about-us-left">
@@ -82,7 +83,56 @@
           </p>
         </div>
       </div>
-      <div class="container"></div>
     </section>
+    <section id="services">
+      <div class="services-background">
+        <div class="container services-container">
+          <h2 class="title">Experience the DO Difference</h2>
+          <div class="subtitle">
+            We pride ourselves on our attention to detail, using only
+            high-quality parts and equipment, and providing the best customer
+            service in the industry.
+          </div>
+          <div class="services-menu">
+            <div class="service-card service-divider">
+              <div class="service-number">01.</div>
+              <div class="service-title">Custom Modifications</div>
+              <div class="service-description">
+                Our team of expert mechanics can modify your bike to meet your
+                exact specifications, ensuring optimal performance.
+              </div>
+            </div>
+            <div class="service-card service-divider">
+              <div class="service-number">02.</div>
+              <div class="service-title">Professional Repairs</div>
+              <div class="service-description">
+                We offer a wide range of bike repair services, ranging from
+                minor fixes to complete overhauls, ensuring your bike is always
+                in top condition.
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="service-number">03.</div>
+              <div class="service-title">Bike Cleaning</div>
+              <div class="service-description">
+                We use a high quality bike cleaning products to keep your bike
+                looking and performing like new, including our specially
+                formulated bike cleaning spray.
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="service-number">04.</div>
+              <div class="service-title">Tune-Ups and Maintenance</div>
+              <div class="service-description">
+                We provide comprehensive tune-ups to restore peak performance
+                and keep your BMX bike race-ready for competitions or optimal
+                handling.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/js/main.js"></script>
   </body>
 </html>

@@ -1,17 +1,18 @@
 :root {
   --white: #fff;
   --black: #000;
-  --primary-color: #31ABAD;
-  --secondary-color: #B2C7B8;
+  --primary-color: #22333B;
+  --secondary-color: #A9927D;
   --font-color-base: #4B4B4B;
   --font-color-light: #ECF2FF;
   --font-color-link: #2476FF;
-  --accent-color-1: #D9C6B1; 
-  --accent-color-2: #F17F20; 
+  --accent-color-1: #519E8A;
+  --bg-color-1: #F2F4F3;
   --success: #01C9A7;
   --error: #EA4335;
 
   --size-5: 0.313rem;
+  --size-8: 0.5rem;
   --size-10: 0.625rem;
   --size-14: 0.875rem;
   --size-16: 1rem;
@@ -94,5 +95,5 @@ img {
 
 .button-primary {
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
