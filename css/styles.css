@@ -57,7 +57,7 @@
 .hero {
   color: white;
   display: flex;
-  padding: var(--size-100) 0;
+  padding: var(--size-150) 0;
   gap: var(--size-20);
 }
 
@@ -94,12 +94,39 @@
   flex: .8 1 0;
 }
 
-.about-services {
-  margin-top: var(--size-50);
+.about-us {
+  margin-top: var(--size-150);
 }
 
-.section-header h2 {
-  text-align: center;
+.about-us-container {
+  display: flex;
+}
+
+.about-us-left {
+  flex: 1;
+}
+
+.about-us-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: var(--size-40);
+}
+
+.about-us-right .title {
+  font-size: var(--size-20);
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.about-us-right .subtitle {
   font-size: var(--size-40);
-  font-weight: 700;
+  font-weight: 500;
+  line-height: var(--size-50)
+}
+
+.about-us-right p {
+  font-size: var(--size-16)
 }
