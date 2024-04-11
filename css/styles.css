@@ -218,3 +218,25 @@
 .service-divider {
   border-bottom: 1px solid var(--secondary-color)
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: white;
+  margin-top: var(--size-80);
+  padding: var(--size-50);
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid var(--bg-color-1);
+  width: 90%;
+  margin-top: var(--size-30);
+  margin-bottom: var(--size-30);
+}
+
+.disclaimer {
+  margin-top: var(--size-20)
+}
